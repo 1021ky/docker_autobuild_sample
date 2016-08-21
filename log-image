@@ -1,0 +1,9 @@
+FROM centos:centos7
+
+LABEL title="ログ用イメージのサンプル"
+LABEL description="ログ用イメージのサンプル"
+
+MAINTAINER 0.1 vaivailx@gmail.com
+
+RUN ["mkdir", "/var/log/httpd"]
+VOLUME /var/log/httpd
