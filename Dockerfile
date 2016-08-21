@@ -1,7 +1,7 @@
 FROM centos:centos7
 
 LABEL title="webサーバサンプル"
-LABEL description="ログを永続化させるwebサーバのサンプル"
+LABEL description="auto buildテストのためのサンプル"
 
 MAINTAINER 0.1 vaivailx@gmail.com
 
